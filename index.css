@@ -1,0 +1,96 @@
+:root{
+    --title-color:#0659b7;
+    --border-color:#0a61c2;
+    --title-sub:#158ff4;
+}
+
+body{
+    background-color: rgb(154, 240, 240);
+}
+
+.reset-content{
+    border-radius: 35px;
+    width: 80%;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+}
+.reset-header{
+    border-bottom: none;
+    display: flex;
+    padding: 10px;
+}
+
+.reset-modal-title{
+    color: var(--title-sub);
+    flex: 8;
+    margin-left: 20px;
+}
+.reset-btn-close{
+    flex: 1;
+    background-color: white;
+
+}
+
+.reset-icon-close{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-left: 20px;
+}
+
+.reset-btn-close,
+.reset-btn-close:active,
+.reset-btn-close:focus {
+  border: none !important;
+}
+
+.reset-body {
+    padding:  50px 20px 100px 20px !important;
+}
+
+.reset-title{
+    color: var(--title-color);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.input-group-reset{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding: 25px 20px 0px 20px;
+}
+
+.input-group-para-reset{
+    padding: 25px 0 15px 0;
+    text-align: center;
+}
+
+.email-input-reset{
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.email-input-label-reset{
+    width: 100%;
+    height: 40px;
+}
+
+.email-input-label-reset:focus{
+    outline: none;
+}
+
+.reset-footer{
+    border: none;
+    padding: 0%;
+    margin-top: 0%;
+    padding: 0px 15px 0px 15px;
+
+ }
+
+
+.reset-btn{
+    width: 100%;
+    text-transform: capitalize;
+    margin-top: 10px !important;
+    border-radius: 0%;
+}
